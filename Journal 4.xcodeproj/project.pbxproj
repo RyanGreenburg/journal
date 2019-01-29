@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		620E503521FCCB34003C4675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E503421FCCB34003C4675 /* AppDelegate.swift */; };
-		620E503721FCCB34003C4675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E503621FCCB34003C4675 /* ViewController.swift */; };
 		620E503A21FCCB34003C4675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620E503821FCCB34003C4675 /* Main.storyboard */; };
 		620E503C21FCCB36003C4675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620E503B21FCCB36003C4675 /* Assets.xcassets */; };
 		620E503F21FCCB36003C4675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620E503D21FCCB36003C4675 /* LaunchScreen.storyboard */; };
+		620E504821FCCC26003C4675 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E504721FCCC26003C4675 /* Journal.swift */; };
+		620E504A21FCCC2F003C4675 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E504921FCCC2F003C4675 /* Entry.swift */; };
+		620E504D21FCCC49003C4675 /* JournalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E504C21FCCC49003C4675 /* JournalController.swift */; };
+		620E504F21FCCC56003C4675 /* EntryCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E504E21FCCC56003C4675 /* EntryCotroller.swift */; };
+		620E505321FCCC88003C4675 /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E505221FCCC88003C4675 /* JournalTableViewController.swift */; };
+		620E505521FCCCA7003C4675 /* EntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E505421FCCCA7003C4675 /* EntryTableViewController.swift */; };
+		620E505821FCCDD8003C4675 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E505721FCCDD8003C4675 /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		620E503121FCCB34003C4675 /* Journal 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		620E503421FCCB34003C4675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		620E503621FCCB34003C4675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		620E503921FCCB34003C4675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		620E503B21FCCB36003C4675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		620E503E21FCCB36003C4675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		620E504021FCCB36003C4675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620E504721FCCC26003C4675 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		620E504921FCCC2F003C4675 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		620E504C21FCCC49003C4675 /* JournalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalController.swift; sourceTree = "<group>"; };
+		620E504E21FCCC56003C4675 /* EntryCotroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCotroller.swift; sourceTree = "<group>"; };
+		620E505221FCCC88003C4675 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		620E505421FCCCA7003C4675 /* EntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewController.swift; sourceTree = "<group>"; };
+		620E505721FCCDD8003C4675 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,68 @@
 		620E503321FCCB34003C4675 /* Journal 4 */ = {
 			isa = PBXGroup;
 			children = (
+				620E507E21FD14D5003C4675 /* View */,
+				620E504B21FCCC34003C4675 /* Models */,
+				620E505021FCCC5D003C4675 /* Controllers */,
+				620E504621FCCB49003C4675 /* Resources */,
+			);
+			path = "Journal 4";
+			sourceTree = "<group>";
+		};
+		620E504621FCCB49003C4675 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				620E503421FCCB34003C4675 /* AppDelegate.swift */,
-				620E503621FCCB34003C4675 /* ViewController.swift */,
-				620E503821FCCB34003C4675 /* Main.storyboard */,
 				620E503B21FCCB36003C4675 /* Assets.xcassets */,
 				620E503D21FCCB36003C4675 /* LaunchScreen.storyboard */,
 				620E504021FCCB36003C4675 /* Info.plist */,
 			);
-			path = "Journal 4";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		620E504B21FCCC34003C4675 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				620E504721FCCC26003C4675 /* Journal.swift */,
+				620E504921FCCC2F003C4675 /* Entry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		620E505021FCCC5D003C4675 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				620E505121FCCC66003C4675 /* ModelControllers */,
+				620E505621FCCCAC003C4675 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		620E505121FCCC66003C4675 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				620E504C21FCCC49003C4675 /* JournalController.swift */,
+				620E504E21FCCC56003C4675 /* EntryCotroller.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		620E505621FCCCAC003C4675 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				620E505221FCCC88003C4675 /* JournalTableViewController.swift */,
+				620E505421FCCCA7003C4675 /* EntryTableViewController.swift */,
+				620E505721FCCDD8003C4675 /* EntryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		620E507E21FD14D5003C4675 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				620E503821FCCB34003C4675 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				620E503721FCCB34003C4675 /* ViewController.swift in Sources */,
+				620E504F21FCCC56003C4675 /* EntryCotroller.swift in Sources */,
+				620E504A21FCCC2F003C4675 /* Entry.swift in Sources */,
+				620E505521FCCCA7003C4675 /* EntryTableViewController.swift in Sources */,
+				620E504D21FCCC49003C4675 /* JournalController.swift in Sources */,
 				620E503521FCCB34003C4675 /* AppDelegate.swift in Sources */,
+				620E505821FCCDD8003C4675 /* EntryViewController.swift in Sources */,
+				620E505321FCCC88003C4675 /* JournalTableViewController.swift in Sources */,
+				620E504821FCCC26003C4675 /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal 4/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Journal 4/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal 4/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Journal 4/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
